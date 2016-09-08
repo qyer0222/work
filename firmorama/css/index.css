@@ -1,0 +1,120 @@
+header{
+	width: 100%;
+    position: fixed;
+    z-index: 9990;
+    background: #f5f6f6;
+    border-top: #0ee172 solid 3px;
+    height: 80px;
+}
+header h1{
+	width: 130px;
+    display: block;
+    margin: 28px 0 0 0;
+    position: absolute;
+    left: 20px;
+    top: 0;
+}
+header ul{
+	 position: absolute;
+	 top: 50%;
+	 left: 50%;
+	 transform: translateX(-50%);
+	 width: 40%;
+}
+header ul li{
+	float: left;
+	text-align: center;
+	width: 30%;
+}
+header ul li:nth-last-of-type{
+	margin-right: 0;
+}
+header ul li a{
+	color: #808080;
+    font-weight: bold;
+    font-size: 16px;
+}
+header li a:hover{
+	color: #0ee172;
+}
+#banner{
+	width: 100%;
+}
+#banner img{
+	width: 100%;
+	height: 400px;
+}
+#con_head{
+	height: 20px;
+	line-height: 20px;
+}
+#content{
+	height: 100px;
+}
+#con_head a:hover{
+	color: #0ee172;
+}
+#con_head {
+	width: 100%;
+	height: 53px;
+	line-height: 50px;
+	background: #fff;
+	/*position: fixed;*/
+	top: 82px;
+	
+}
+#con_head ul{
+	height: 100%;
+	width: 600px;
+	margin: 0 auto;
+	border-top:#0ee172 solid 3px;
+}
+#con_head li{
+	float: left;
+	width: 100px;
+	text-align: center;
+}
+
+#con_body li{
+	float: left;
+	text-align: center;
+	position: relative;
+}
+#con_body img{
+	width: 270px;
+	vertical-align: top;
+}
+.flofix{
+	position: fixed;
+	z-index: 1000;
+}
+#con_body div{
+	top: 0;
+	position: absolute;
+	width: 230px;
+	z-index: 100;
+}
+#con_body div {
+	color: black;
+}
+#loader{
+	width: 100%;
+	height: 60px; 
+	background: url(../img/loader.gif) no-repeat center #FFF; 
+	position: fixed; 
+	bottom: 0; 
+	left: 0; 
+	display: none; 
+}
+#con_body{
+	position: relative;
+	margin: 0 50px;
+	width: 1000px;
+}
+#con_body img { 
+	position: absolute; 
+}
+
+@media only screen and (max-width: 473px){
+	
+}
